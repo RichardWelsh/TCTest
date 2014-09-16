@@ -16,6 +16,7 @@ namespace QuantTechnologies.Shell.Framework.Services
         string Owner { get; set; }
         object DefaultValue { get; set; }
         object Value { get; set; }
+
         eScope Scope { get; set; }
 
         TSetting ReadSetting<TSetting>(string pOwner, string pName);// where TSetting : ISettings;
