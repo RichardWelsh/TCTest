@@ -9,7 +9,7 @@ using QuantTechnologies.Shell.Modules.SettingsManager.Models;
 
 namespace QuantTechnologies.Shell.Framework.Services
 {
-
+    //testing tc
     public interface ISettings 
     {
         string Name { get; set; }
